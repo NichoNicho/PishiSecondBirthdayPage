@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+ 
+  <title>PishiJan2ndBirthdayPage</title>
+  <%= stylesheet_link_tag 'application','https://fonts.googleapis.com/css?family=Kaushan+Script',  media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+  <%= audio_tag "Happy Birthday.mp3", id: " sound", class: "audio-to-play", autoplay: true %>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
